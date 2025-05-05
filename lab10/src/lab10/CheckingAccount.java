@@ -1,3 +1,5 @@
+package lab10;
+
 public class CheckingAccount extends Account{
     private double credit;
     

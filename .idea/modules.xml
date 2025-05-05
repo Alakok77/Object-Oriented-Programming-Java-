@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exam-midterm/Exam-midterm.iml" filepath="$PROJECT_DIR$/Exam-midterm/Exam-midterm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExamMidterm/ExamMidterm.iml" filepath="$PROJECT_DIR$/ExamMidterm/ExamMidterm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaApplication13/JavaApplication13.iml" filepath="$PROJECT_DIR$/JavaApplication13/JavaApplication13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaApplication5/JavaApplication5.iml" filepath="$PROJECT_DIR$/JavaApplication5/JavaApplication5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab01/Lab01.iml" filepath="$PROJECT_DIR$/Lab01/Lab01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab02/Lab02.iml" filepath="$PROJECT_DIR$/Lab02/Lab02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab03/Lab03.iml" filepath="$PROJECT_DIR$/Lab03/Lab03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab06/Lab06.iml" filepath="$PROJECT_DIR$/Lab06/Lab06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab08/Lab08.iml" filepath="$PROJECT_DIR$/Lab08/Lab08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week4/Week4.iml" filepath="$PROJECT_DIR$/Week4/Week4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week4send/Week4send.iml" filepath="$PROJECT_DIR$/Week4send/Week4send.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab05/lab05.iml" filepath="$PROJECT_DIR$/lab05/lab05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab07/lab07.iml" filepath="$PROJECT_DIR$/lab07/lab07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab07.2/lab07.2.iml" filepath="$PROJECT_DIR$/lab07.2/lab07.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab3/lab3.iml" filepath="$PROJECT_DIR$/lab3/lab3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/oop.iml" filepath="$PROJECT_DIR$/.idea/oop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pre-midtermFewz/pre-midtermFewz.iml" filepath="$PROJECT_DIR$/pre-midtermFewz/pre-midtermFewz.iml" />
+    </modules>
+  </component>
+</project>

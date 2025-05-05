@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ExamMidterm">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ExamMidterm/dist/ExamMidterm.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

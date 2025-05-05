@@ -1,3 +1,5 @@
+package lab11;
+
 public class Account {
     protected double balance;
     protected String name;
@@ -16,14 +18,14 @@ public class Account {
         }
     }
     
-    public void withdraw(double a){
-        if (a >= 0 && this.balance - a > 0){
-            this.balance -= a;
-            System.out.println(a + " baht is withdrawn from " + this.name + ".");
-        } else if (a < 0) {
+    public void withdraw(double amount) throws WithdrawException{
+        if (amount >= 0 && this.balance - amount > 0){
+            this.balance -= amount;
+            System.out.println(amount + " baht is withdrawn from " + this.name + ".");
+        } else if (amount < 0) {
             System.out.println("Input number must be a positive integer.");
-        } else if (this.balance - a < 0){
-            System.out.println("Not enough money!");
+        } else if (this.balance - amount < 0){
+            throw new WithdrawException("Account " + this.getName() + "has not enough money.");
         }
     }
     

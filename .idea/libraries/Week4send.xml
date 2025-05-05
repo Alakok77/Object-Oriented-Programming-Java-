@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Week4send">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Week4send/dist/Week4send.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

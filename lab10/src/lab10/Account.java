@@ -1,3 +1,5 @@
+package lab10;
+
 public class Account {
     protected double balance;
     protected String name;

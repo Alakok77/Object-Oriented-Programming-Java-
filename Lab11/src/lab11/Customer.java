@@ -1,3 +1,5 @@
+package lab11;
+
 public class Customer {
     private String firstName;
     private String lastName;

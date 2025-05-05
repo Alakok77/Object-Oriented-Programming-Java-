@@ -1,3 +1,5 @@
+package lab11;
+
 public class CheckingAccount extends Account{
     private double credit;
     
@@ -24,7 +26,7 @@ public class CheckingAccount extends Account{
     }
     
     @Override
-    public void withdraw(double a){
+    public void withdraw(double a) throws WithdrawException{
         if (a > 0 && balance - a > 0){
             this.balance -= a;
             System.out.println(a + " baht is withdrawn from " + this.name + " and your credit balance is " + this.credit + ".");
@@ -33,13 +35,13 @@ public class CheckingAccount extends Account{
             this.balance = 0;
             System.out.println(a + " baht is withdrawn from " + this.name + " and your credit balance is " + this.credit + ".");
         } else if (a > 0 && balance - a < 0 && (balance - a) + credit < 0){
-            System.out.println("Not enough money!");
+            throw new WithdrawException("Account " + this.getName() + " has not enough money.");
         } else {
             System.out.println("Input number must be a positive integer.");
         }
     }
     
-    public void withdraw(String a){
+    public void withdraw(String a) throws WithdrawException{
         double x = Double.parseDouble(a);
         this.withdraw(x);
     }

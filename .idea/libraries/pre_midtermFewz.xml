@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pre-midtermFewz">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pre-midtermFewz/dist/pre-midtermFewz.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
